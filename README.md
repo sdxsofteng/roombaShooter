@@ -23,4 +23,4 @@ See tutorial to see how I set up Wi-Fi sniffing on my computer.
 
 https://linuxhint.com/install-and-use-wireshark-on-manjaro-linux/
 
-![](/images/screenshot.pngscreenshot.png)
+<img src="images/screenshot.png">
