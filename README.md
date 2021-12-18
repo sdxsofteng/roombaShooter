@@ -1,4 +1,4 @@
-# Project: Hacking my roomba so it can shoot me
+# Project: Hacking my roomba so it can shoot me (with an airsoft gun)
 
 Hello There!
 
