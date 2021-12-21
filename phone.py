@@ -1,5 +1,6 @@
 from ppadb.client import Client
 from PIL import Image
+import serial
 import numpy
 import keyboard
 
@@ -24,6 +25,9 @@ up = 'input tap 540 1012'
 lft = 'input tap 308 1246'
 rgt = 'input tap 778 1246'
 dn = 'input tap 540 1480'
+
+
+
 
 while True:
     if keyboard.is_pressed ("up"):

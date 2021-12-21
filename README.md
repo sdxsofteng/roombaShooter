@@ -70,5 +70,7 @@ https://help.famoco.com/developers/dev-env/adb-over-wifi/
 
 # Coding in python
 
+Before running script:
+
 Controlling the direction of the robot:
 
