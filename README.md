@@ -68,9 +68,49 @@ https://stackoverflow.com/questions/31327839/adb-over-wireless-without-usb-cable
 
 https://help.famoco.com/developers/dev-env/adb-over-wifi/
 
-# Coding in python
+# Setting up the raspberry Pi
 
-Before running script:
+1)Flash Image with RPI Imager (Desktop Legacy)
 
-Controlling the direction of the robot:
+1.1) `echo '' > .ssh/known_hosts`
 
+1.2) SSH
+
+1) `sudo raspi-config` Interface Enable VNC + Change display resolution
+
+2) Log in VNC trough VNC
+
+3) Install normal
+
+4) Enable camera in settings
+
+# Streaming video from pi to local web-server
+
+See `client.py` for script
+
+Source: https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/
+
+# Using openCV to analyse human shape
+
+See `server.py` for script
+
+To see:
+Non-Maxima Suppression (Pemettrait de pas avoir des multiboxes)
+https://www.pyimagesearch.com/2015/11/16/hog-detectmultiscale-parameters-explained/
+https://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
+Faire Carre milieu.
+Deduire mouvement gauche droite selon le carré
+When detected for
+
+# Modeling in CAD
+
+To insert stl upload to cloud
+Creat Fusion design
+Insert into project
+
+Modeling almost done for 3d printed parts
+https://www.youtube.com/watch?v=tQEmtbaO2GY
+
+# Step Motor
+
+28BYJ-48 stepper motor and ULN2003 Motor Arduino Driver
